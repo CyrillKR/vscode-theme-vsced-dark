@@ -2,8 +2,9 @@
   "name": "vsced-dark",
   "displayName": "vsced dark",
   "description": "A dark VS Code theme inspired by the supplied Zed palette.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "cyrillkr",
+  "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "https://github.com/CyrillKR/vscode-theme-vsced-dark.git"
@@ -17,6 +18,8 @@
   "files": [
     "README.md",
     "package.json",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
     "themes/**",
     "screenshots/**"
   ],

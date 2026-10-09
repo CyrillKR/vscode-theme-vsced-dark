@@ -38,7 +38,7 @@ The workspace settings in this repository already select the recommended icon th
 The theme definition is in `themes/vsced-dark-color-theme.json`. To package the extension locally, run this from the extension directory:
 
 ```sh
-npx --yes @vscode/vsce package --no-dependencies --allow-missing-repository
+npx --yes @vscode/vsce package --no-dependencies
 ```
 
-VSCE may warn that the extension has no license metadata; continue for local packaging. Install the generated `.vsix` from the VS Code Extensions view using **Install from VSIX...**.
+The VSIX is distributed under GPL-3.0-only and includes the Ayu Darker source attribution in `THIRD_PARTY_NOTICES.md`. Install the generated `.vsix` from the VS Code Extensions view using **Install from VSIX...**.

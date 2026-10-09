@@ -1,0 +1,7 @@
+{
+  "workbench.colorTheme": "vsced dark",
+  "workbench.iconTheme": "vscode-minimal-plus-icon-theme",
+  "editor.fontSize": 18,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false
+}
