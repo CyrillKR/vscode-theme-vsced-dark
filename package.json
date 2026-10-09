@@ -1,0 +1,32 @@
+{
+  "name": "vsced-dark",
+  "displayName": "vsced dark",
+  "description": "A dark VS Code theme inspired by the supplied Zed palette.",
+  "version": "0.0.6",
+  "publisher": "cyrillkr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyrillKR/bs_c_pvp.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "files": [
+    "README.md",
+    "package.json",
+    "themes/**",
+    "screenshots/**"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vsced dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vsced-dark-color-theme.json"
+      }
+    ]
+  }
+}

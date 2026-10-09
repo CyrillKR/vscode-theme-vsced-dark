@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title description">
+  <title id="title">vsced dark editor preview</title>
+  <desc id="description">A dark VS Code-style editor preview showing JavaScript, Python, C, and JSON with the vsced dark palette.</desc>
+  <defs>
+    <style>
+      .ui { font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .code { font: 15px "SFMono-Regular", Menlo, Monaco, Consolas, monospace; }
+      .muted { fill: #777b84; }
+      .text { fill: #b7b8b2; }
+      .cyan { fill: #61c8ff; }
+      .lime { fill: #a6e22e; }
+      .orange { fill: #ffad43; }
+      .hot { fill: #ff8738; }
+      .purple { fill: #d3a0ff; }
+      .comment { fill: #626e7c; }
+      .line { fill: #4b5059; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#0d1117"/>
+  <rect width="1600" height="40" fill="#191b21"/>
+  <circle cx="22" cy="20" r="6" fill="#f45b69"/><circle cx="44" cy="20" r="6" fill="#ffad43"/><circle cx="66" cy="20" r="6" fill="#a6e22e"/>
+  <text x="94" y="25" class="ui" fill="#d4d5d8">vsced dark</text>
+  <text x="1500" y="25" class="ui muted" text-anchor="end">editor preview</text>
+  <rect y="40" width="260" height="960" fill="#1f2024"/>
+  <line x1="260" y1="40" x2="260" y2="1000" stroke="#303136"/>
+  <text x="24" y="76" class="ui" fill="#dedee0" font-weight="600">EXPLORER</text>
+  <text x="235" y="76" class="ui muted">...</text>
+  <text x="20" y="120" class="ui" fill="#a2a3a7" font-weight="600">⌄  VSCED-DARK</text>
+  <text x="45" y="158" class="ui lime">▾  examples</text>
+  <text x="70" y="194" class="ui cyan">JS  app.js</text>
+  <text x="70" y="230" class="ui lime">PY  sample.py</text>
+  <text x="70" y="266" class="ui orange">C   main.c</text>
+  <text x="70" y="302" class="ui cyan">{}  settings.json</text>
+  <text x="45" y="354" class="ui muted">▸  themes</text>
+  <text x="45" y="390" class="ui muted">▸  screenshots</text>
+  <rect x="260" y="40" width="1340" height="44" fill="#17191f"/>
+  <rect x="260" y="40" width="235" height="44" fill="#0d1117" stroke="#2b2d34"/>
+  <rect x="260" y="40" width="235" height="2" fill="#61c8ff"/>
+  <text x="280" y="67" class="ui cyan">JS  app.js</text>
+  <text x="515" y="67" class="ui muted">PY  sample.py</text>
+  <text x="700" y="67" class="ui muted">C  main.c</text>
+  <text x="850" y="67" class="ui muted">{}  settings.json</text>
+  <rect x="260" y="84" width="1340" height="36" fill="#0d1117"/>
+  <text x="284" y="108" class="ui muted">examples</text><text x="354" y="108" class="ui muted">›</text><text x="374" y="108" class="ui text">app.js</text>
+  <line x1="930" y1="120" x2="930" y2="1000" stroke="#2b2d34"/>
+  <line x1="260" y1="560" x2="1600" y2="560" stroke="#2b2d34"/>
+  <rect x="260" y="120" width="670" height="440" fill="#0d1117"/>
+  <rect x="260" y="120" width="670" height="34" fill="#11141a"/>
+  <text x="282" y="143" class="ui" fill="#ffad43">app.js</text><text x="894" y="143" class="ui muted" text-anchor="end">JavaScript</text>
+  <g class="code">
+    <text x="282" y="190" class="line">1</text><text x="324" y="190"><tspan class="hot">const</tspan><tspan class="text"> palette </tspan><tspan class="text">=</tspan><tspan class="text"> {</tspan></text>
+    <text x="282" y="224" class="line">2</text><text x="324" y="224"><tspan class="text">  </tspan><tspan class="cyan">background</tspan><tspan class="text">: </tspan><tspan class="lime">"#0d1117"</tspan><tspan class="text">,</tspan></text>
+    <text x="282" y="258" class="line">3</text><text x="324" y="258"><tspan class="text">  </tspan><tspan class="cyan">accent</tspan><tspan class="text">: </tspan><tspan class="lime">"#61c8ff"</tspan><tspan class="text">,</tspan></text>
+    <text x="282" y="292" class="line">4</text><text x="324" y="292"><tspan class="text">  </tspan><tspan class="cyan">success</tspan><tspan class="text">: </tspan><tspan class="lime">"#a6e22e"</tspan></text>
+    <text x="282" y="326" class="line">5</text><text x="324" y="326" class="text">};</text>
+    <text x="282" y="360" class="line">6</text><text x="324" y="360" class="comment">// Keep the UI calm and readable.</text>
+    <text x="282" y="394" class="line">7</text><text x="324" y="394"><tspan class="hot">function</tspan><tspan class="orange"> describeTheme</tspan><tspan class="text">() {</tspan></text>
+    <text x="282" y="428" class="line">8</text><text x="324" y="428"><tspan class="text">  </tspan><tspan class="hot">return</tspan><tspan class="text"> palette.</tspan><tspan class="cyan">accent</tspan><tspan class="text">;</tspan></text>
+    <text x="282" y="462" class="line">9</text><text x="324" y="462" class="text">}</text>
+  </g>
+  <rect x="930" y="120" width="670" height="440" fill="#0d1117"/>
+  <rect x="930" y="120" width="670" height="34" fill="#11141a"/>
+  <text x="952" y="143" class="ui" fill="#a6e22e">sample.py</text><text x="1564" y="143" class="ui muted" text-anchor="end">Python</text>
+  <g class="code">
+    <text x="952" y="190" class="line">1</text><text x="994" y="190" class="comment"># A small, typed example</text>
+    <text x="952" y="224" class="line">2</text><text x="994" y="224"><tspan class="hot">from</tspan><tspan class="text"> dataclasses </tspan><tspan class="hot">import</tspan><tspan class="text"> dataclass</tspan></text>
+    <text x="952" y="258" class="line">3</text><text x="994" y="258"><tspan class="hot">@</tspan><tspan class="cyan">dataclass</tspan></text>
+    <text x="952" y="292" class="line">4</text><text x="994" y="292"><tspan class="hot">class</tspan><tspan class="orange"> Color</tspan><tspan class="text">:</tspan></text>
+    <text x="952" y="326" class="line">5</text><text x="994" y="326"><tspan class="text">    name: </tspan><tspan class="cyan">str</tspan></text>
+    <text x="952" y="360" class="line">6</text><text x="994" y="360"><tspan class="text">    value: </tspan><tspan class="cyan">str</tspan></text>
+    <text x="952" y="394" class="line">7</text><text x="994" y="394"></text>
+    <text x="952" y="428" class="line">8</text><text x="994" y="428"><tspan class="hot">def</tspan><tspan class="orange"> main</tspan><tspan class="text">() -&gt; </tspan><tspan class="cyan">None</tspan><tspan class="text">:</tspan></text>
+    <text x="952" y="462" class="line">9</text><text x="994" y="462"><tspan class="text">    print(</tspan><tspan class="lime">"vsced dark"</tspan><tspan class="text">)</tspan></text>
+  </g>
+  <rect x="260" y="560" width="670" height="440" fill="#0d1117"/>
+  <rect x="260" y="560" width="670" height="34" fill="#11141a"/>
+  <text x="282" y="583" class="ui" fill="#ffad43">main.c</text><text x="894" y="583" class="ui muted" text-anchor="end">C</text>
+  <g class="code">
+    <text x="282" y="630" class="line">1</text><text x="324" y="630"><tspan class="cyan">#include</tspan><tspan class="lime"> &lt;stdio.h&gt;</tspan></text>
+    <text x="282" y="664" class="line">2</text><text x="324" y="664"></text>
+    <text x="282" y="698" class="line">3</text><text x="324" y="698"><tspan class="cyan">int</tspan><tspan class="text"> </tspan><tspan class="orange">main</tspan><tspan class="text">(</tspan><tspan class="cyan">void</tspan><tspan class="text">) {</tspan></text>
+    <text x="282" y="732" class="line">4</text><text x="324" y="732"><tspan class="text">    </tspan><tspan class="hot">const char</tspan><tspan class="text"> *name = </tspan><tspan class="lime">"vsced dark"</tspan><tspan class="text">;</tspan></text>
+    <text x="282" y="766" class="line">5</text><text x="324" y="766"><tspan class="text">    </tspan><tspan class="hot">printf</tspan><tspan class="text">(</tspan><tspan class="lime">"hello, %s\\n"</tspan><tspan class="text">, name);</tspan></text>
+    <text x="282" y="800" class="line">6</text><text x="324" y="800"><tspan class="text">    </tspan><tspan class="hot">return</tspan><tspan class="purple"> 0</tspan><tspan class="text">;</tspan></text>
+    <text x="282" y="834" class="line">7</text><text x="324" y="834" class="text">}</text>
+  </g>
+  <rect x="930" y="560" width="670" height="440" fill="#0d1117"/>
+  <rect x="930" y="560" width="670" height="34" fill="#11141a"/>
+  <text x="952" y="583" class="ui cyan">settings.json</text><text x="1564" y="583" class="ui muted" text-anchor="end">JSON</text>
+  <g class="code">
+    <text x="952" y="630" class="line">1</text><text x="994" y="630" class="text">{</text>
+    <text x="952" y="664" class="line">2</text><text x="994" y="664"><tspan class="text">  </tspan><tspan class="cyan">"workbench.colorTheme"</tspan><tspan class="text">: </tspan><tspan class="lime">"vsced dark"</tspan><tspan class="text">,</tspan></text>
+    <text x="952" y="698" class="line">3</text><text x="994" y="698"><tspan class="text">  </tspan><tspan class="cyan">"editor.fontSize"</tspan><tspan class="text">: </tspan><tspan class="purple">18</tspan><tspan class="text">,</tspan></text>
+    <text x="952" y="732" class="line">4</text><text x="994" y="732"><tspan class="text">  </tspan><tspan class="cyan">"files.autoSave"</tspan><tspan class="text">: </tspan><tspan class="lime">"afterDelay"</tspan><tspan class="text">,</tspan></text>
+    <text x="952" y="766" class="line">5</text><text x="994" y="766"><tspan class="text">  </tspan><tspan class="cyan">"editor.minimap.enabled"</tspan><tspan class="text">: </tspan><tspan class="purple">false</tspan></text>
+    <text x="952" y="800" class="line">6</text><text x="994" y="800" class="text">}</text>
+  </g>
+  <rect x="0" y="1000" width="1600" height="576" fill="#0d1117"/>
+  <rect x="0" y="1000" width="1600" height="44" fill="#191b21"/>
+  <line x1="0" y1="1000" x2="1600" y2="1000" stroke="#2b2d34"/>
+  <text x="26" y="1028" class="ui" fill="#d4d5d8">TERMINAL</text>
+  <text x="145" y="1028" class="ui muted">OUTPUT</text>
+  <text x="225" y="1028" class="ui muted">DEBUG CONSOLE</text>
+  <text x="1580" y="1028" class="ui muted" text-anchor="end">zsh</text>
+  <g class="code">
+    <text x="28" y="1096" fill="#c6c7c2">Last login: Fri Oct  9 03:28:29 on ttys000</text>
+    <text x="28" y="1148" fill="#a6e22e">➜</text>
+    <text x="66" y="1148" fill="#8ce0c1" font-weight="700">boomer_shooter</text>
+    <text x="266" y="1148" fill="#61c8ff" font-weight="700">git:</text>
+    <text x="302" y="1148" fill="#b7b8b2">(</text>
+    <text x="313" y="1148" fill="#f45b69" font-weight="700">main</text>
+    <text x="355" y="1148" fill="#b7b8b2">)</text>
+    <text x="380" y="1148" fill="#ffad43" font-weight="700">×</text>
+    <rect x="404" y="1117" width="3" height="38" fill="#61c8ff"/>
+  </g>
+  <rect x="0" y="1576" width="1600" height="24" fill="#191b21"/>
+  <text x="18" y="1594" class="ui muted">vsced dark</text><text x="1580" y="1594" class="ui muted" text-anchor="end">JavaScript · Python · C · JSON</text>
+</svg>
