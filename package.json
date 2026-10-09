@@ -6,7 +6,7 @@
   "publisher": "cyrillkr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CyrillKR/bs_c_pvp.git"
+    "url": "https://github.com/CyrillKR/vscode-theme-vsced-dark.git"
   },
   "engines": {
     "vscode": "^1.80.0"
