@@ -8,6 +8,9 @@ A charcoal VS Code theme inspired by the supplied Zed editor reference. It bring
 
 - Near-black editor canvas with a muted charcoal workbench and Explorer.
 - Cyan identifiers and properties, lime strings and new files, orange functions, coral control keywords, and lavender numbers.
+- Syntax colors for every popular language and file format: JavaScript/TypeScript (JSX/TSX), Python, Java, C/C++, C#, Go, Rust, PHP, Ruby, Swift, Kotlin, Dart, Scala, Lua, Haskell, Elixir, Clojure, R, Julia, Perl, Objective-C, F#, Zig, shell/PowerShell/batch, SQL, HTML, CSS/SCSS/Less, Vue, Svelte, Astro, Markdown/MDX, JSON, YAML, TOML, XML, INI, `.env`, Dockerfile, Makefile, GraphQL, Terraform, Protobuf, LaTeX, diff/patch, git commit messages, log files, and more.
+- Semantic highlighting colors that agree with the TextMate colors, so language servers (TypeScript, Pylance, rust-analyzer, C#, Java) don't shift the palette.
+- Bracket pair colors drawn from the same palette.
 - Explorer Git decorations for added, modified, untracked, renamed, and deleted resources.
 - Coordinated ANSI terminal colors, cursor, and selection colors.
 - Designed to pair with [Minimal Plus Theme](https://marketplace.visualstudio.com/items?itemName=nasermirzaei.vscode-minimal-plus-theme), the recommended file icon theme.
